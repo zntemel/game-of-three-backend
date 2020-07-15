@@ -1,0 +1,17 @@
+{
+  "name": "game-of-three-backend",
+  "version": "1.0.0",
+  "description": "backend for game of three",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "watch": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zeynep nur temel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
